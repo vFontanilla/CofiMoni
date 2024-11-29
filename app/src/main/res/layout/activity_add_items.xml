@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/editTextitmcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editTextitmname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Item Name"
+        android:padding="8dp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextitmprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Item Price"
+        android:padding="8dp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple" />
+
+</LinearLayout>
